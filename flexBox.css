@@ -1,0 +1,12 @@
+/* .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+} */
+
+.navContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
