@@ -1,12 +1,25 @@
-/* .container {
+input,
+.navHeader {
+  width: 80%;
+  text-align: center;
+}
+.searchButton {
+  position: fixed;
+}
+.container {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-} */
-
-.navContainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
+.navHeader {
+  align-self: center;
+  flex-shrink: 0;
+}
+
+/* .navSearch {
+
+} 
+.navSearch:nth-last-of-type(1) {
+ 
+} */
