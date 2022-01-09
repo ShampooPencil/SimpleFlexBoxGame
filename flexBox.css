@@ -1,25 +1,14 @@
-input,
-.navHeader {
-  width: 80%;
-  text-align: center;
-}
-.searchButton {
-  position: fixed;
-}
 .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
-.navHeader {
-  align-self: center;
-  flex-shrink: 0;
+
+.navHeader,
+.navSearch {
+  flex-shrink: 3;
 }
-
-/* .navSearch {
-
-} 
-.navSearch:nth-last-of-type(1) {
+/* .navSearch:nth-last-of-type(1) {
  
 } */
