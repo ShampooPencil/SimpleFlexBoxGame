@@ -1,14 +1,26 @@
 .container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid black;
 }
-
-.navHeader,
-.navSearch {
-  flex-shrink: 3;
+.logoContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 5vh;
 }
-/* .navSearch:nth-last-of-type(1) {
- 
+.mainNavContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 3vh;
+}
+/* .mainLogoItem {
+  align-self: stretch;
+} */
+/* .row1Item {
 } */
