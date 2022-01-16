@@ -32,11 +32,11 @@ html {
   border-radius: 12px;
   display: flex;
   flex-flow: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: space-between;
   background-color: rgb(160, 247, 218);
-  padding-left: 10vh;
-  padding-right: 10vh;
+  min-width: 70vh;
+  max-height: 40vh;
 }
 .aboutMe {
   align-self: center;
@@ -51,7 +51,7 @@ html {
   flex-flow: column wrap;
   /* justify-content: center; */
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   border: 2px solid black;
   border-radius: 5vh;
 }
