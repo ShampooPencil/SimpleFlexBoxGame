@@ -1,3 +1,6 @@
+html {
+  background-color: chartreuse;
+}
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -17,10 +20,43 @@
   flex-flow: row wrap;
   justify-content: flex-start;
   gap: 10px;
-  font-size: 3vh;
+  font-size: 4vh;
 }
-/* .mainLogoItem {
-  align-self: stretch;
-} */
-/* .row1Item {
-} */
+
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.aboutUser {
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(160, 247, 218);
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+.aboutMe {
+  align-self: center;
+}
+.container3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.heroCard {
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid black;
+  border-radius: 5vh;
+}
+
+img.characterPic {
+  width: 20vh;
+  height: 30vh;
+}
